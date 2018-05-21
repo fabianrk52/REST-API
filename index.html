@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/includes/style.css">
+    <title>API</title>
+</head>
+<style>
+    body{
+    max-width: 1000px;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0;
+}
+
+h1{
+    text-align: center;
+}
+img{
+    margin-right: 10%;
+    float: right;
+}
+section{
+    text-align: center;
+    margin-top: 10%;
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+</style>
+<body>
+    <h1>Category Search</h1>
+
+    <section>
+            <p>Get all data (GET- Without parameters):</p>
+            <a target="_blank" href="https://young-refuge-41201.herokuapp.com/getAll">Get without parameters</a><br><br>
+            <p>Get Title by id (POST 'id' param required):</p>
+            <a target="_blank" href="https://young-refuge-41201.herokuapp.com/getCatbyID/:id/">Post with 1 parameters</a><br><br>
+            <p>Get Title,Visitor,expectancy,revenue (GET id and title params required):</p>
+            <a target="_blank" href="https://young-refuge-41201.herokuapp.com/search/:id/:title">Get with 2 parameters</a>
+    </section>
+
+
+    <section class="datamodel">
+    <h3>Data Model</h3>
+    <p>{</p>
+    <p>&emsp;"id": "1",</p>
+	<p>&emsp; "title": "Action",</p>
+	<p>&emsp; "visitors":"200",</p>
+    <p>&emsp; "expectancy":"1000",</p>
+    <p>&emsp; "revenue":"140000"</p>
+	<p>}</p>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+{	
+	"Categories": [{
+			"id": "1",
+			"title": "Action",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"140000"
+		},
+		{
+			"id": "2",
+			"title": "Drama",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"103500"
+        },
+        {
+			"id": "3",
+			"title": "Horror",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"159000"
+        },
+        {
+			"id": "4",
+			"title": "Comedy",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"356000"
+        },
+        {
+			"id": "5",
+			"title": "Western",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"50000"
+		},
+		{
+			"id": "5",
+			"title": "Sci-FI",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"170000"
+		},
+		{
+			"id": "6",
+			"title": "Art",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"70000"
+		},
+		{
+			"id": "7",
+			"title": "Black",
+			"visitors":"200",
+			"expectancy":"1000",
+			"revenue":"10000"
+        }
+	]
+	
+}

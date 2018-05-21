@@ -1,1 +1,1 @@
-Targil1
+ex-node1
