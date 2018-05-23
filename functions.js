@@ -1,6 +1,6 @@
 var data = require("./data/category.json"),
     mongoose = require('mongoose'),
-    consts = require("./const"),
+    consts = require("./consts/const"),
     catSchema =require("./modelExports");
 
 
