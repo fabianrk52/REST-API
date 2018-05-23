@@ -77,26 +77,7 @@ var data = require("./data/category.json"),
         }
 }
 
-           /*     let res = false;
-                for(let i in result.Categories){
-                    var cat = result.Categories[i];
-                    //console.log(cat);
-                    //console.log(cat.id);
-                    console.log(id);
-                if(cat.id==id){
-                    res = true;
-                    //console.log(cat);
-                    return({"Title": cat.title});
-                }
-                if(!res)
-                //console.log(cat);
-                console.log("Errror");
-                return ({"Error":"Not Found"});  
-            }  
-        }   
-}
-
-
+/* V1.0
 module.exports = {
     getAll:()=>{
         return data;
